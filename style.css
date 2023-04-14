@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #fff;
+    font-size: 48px;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #1f2937;
+    padding: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.word-section {
+    color: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(63, 109, 236);
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.btn a {
+    color: white;
+}
+
+.word-section h1 {
+    color: #fff;
+}
+
+.hero-section img {
+    float: right;
+    position: relative;
+    top: -250px;
+    right: 50px;
+}
+
+/*  MIDDLE SECTION  */
+
+.middle-section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-left: 100px;
+}
+
+.img-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    padding-left: 100px;
+}
